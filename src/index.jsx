@@ -2,13 +2,13 @@
 import { render } from "solid-js/web";
 import { Router } from "@solidjs/router";
 import "./index.css";
-import App from "./App";
+import Layout from "./pages/Layout";
 
 render(
   () => (
     <Router>
-      <App />
+      <Layout />
     </Router>
   ),
-  document.getElementById("app")
+  document.getElementById("root")
 );
